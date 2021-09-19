@@ -9,7 +9,7 @@ class QR:
         self.background = background
         self.fill_color = fill_color
 
-    def define_qr(self):
+    def define_qr_and_save(self):
         code = qrcode.QRCode(
             version=1,
             error_correction=qrcode.constants.ERROR_CORRECT_L,
