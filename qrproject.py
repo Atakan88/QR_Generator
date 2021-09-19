@@ -25,7 +25,7 @@ class QR:
 while True:
 
     try:
-        select = int(input("1.Create QR,\n2.Exit\nSelect: "))
+        select = int(input("1.Create QR\n2.Exit\nSelect: "))
         if select == 1:
 
             link = str(input("Enter a link or any text you want: "))
